@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chrono | Stopwatch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <section class="stopwatch-card">
+      <div class="top-row">
+        <div>
+          <p class="eyebrow">PRECISION TIMER</p>
+          <h1>Stopwatch</h1>
+        </div>
+        <span class="status" id="status">READY</span>
+      </div>
+
+      <div class="timer-wrap">
+        <div class="timer" id="display">00:00:00<span>.00</span></div>
+        <p id="hint">Press start to begin timing</p>
+      </div>
+
+      <div class="controls">
+        <button id="startBtn" class="primary">Start</button>
+        <button id="pauseBtn">Pause</button>
+        <button id="lapBtn">Lap</button>
+        <button id="resetBtn" class="danger">Reset</button>
+      </div>
+
+      <div class="laps-panel">
+        <div class="laps-head">
+          <h2>Lap Times</h2>
+          <span id="lapCount">0 laps</span>
+        </div>
+        <div id="emptyState" class="empty">No laps recorded yet.</div>
+        <ol id="lapList"></ol>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
