@@ -1,5 +1,9 @@
 # Chrono Stopwatch
-https://priyanshu-chichkhede.github.io/stopwatch-/
+# ⏱️ Stopwatch Web Application
+
+### 🌐 Live Demo
+
+👉 [Click here to use the Stopwatch](https://priyanshu-chichkhede.github.io/stopwatch-/)
 
 A responsive stopwatch web application built with HTML, CSS, and JavaScript.
 
